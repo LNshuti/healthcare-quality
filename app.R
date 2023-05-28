@@ -12,6 +12,7 @@ top5Films <- list(
 
 ui <- function(id) {
   ns <- NS(id)
+  titlePanel("Healthcare Star Ratings by State")
   tagList(
     H3("Multiselect"),
     MultiSelect.shinyInput(

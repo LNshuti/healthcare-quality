@@ -12,16 +12,17 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Load Required Libraries
 
 
-```{r cars}
-summary(cars)
+```{r, include=False}
+library(tidyverse)
+library(sf)
+library(here)
+library(gptstudio)
 ```
 
-## Including Plots
+## Load data 
+```{r, echo=FALSE}
+hsa_2015 <- read_csv("data/HSAF_2015_SUPPRESS.csv") %>% 
+  as_tibble()
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+hsa_2015
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
