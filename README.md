@@ -2,6 +2,7 @@
 Build a PowerBI dashboard comparing healthcare quality measures between hospitals and accross states in the US. 
 
 #### Literature Review 
+----------------------
 
 **1. Mortality Rates**
 
@@ -29,6 +30,7 @@ While traditionally not a part of quality metrics, the efficiency and cost of ca
 
 
 #### References
+---------------
 
 1: Krumholz, H. M., Normand, S. L., & Wang, Y. (2019). Trends in Hospitalizations and Outcomes for Acute Cardiovascular Disease and Stroke, 1999-2011. Circulation, 130(12), 966–975.
 
