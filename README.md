@@ -3,27 +3,27 @@ Build a PowerBI dashboard comparing healthcare quality measures between hospital
 
 #### Literature Review 
 
-1. Mortality Rates
+**1. Mortality Rates**
 
 Mortality rates within 30 days of hospital admission have been critical for measuring hospital quality. The trend for this metric has generally been on the decline over the past few years. In the case of conditions like heart attack (AMI), heart failure (HF), and pneumonia, 30-day mortality rates have declined significantly (Krumholz et al., 2019).1
 
-2. Readmission Rates
+**2. Readmission Rates**
 
 Hospital readmission rates within 30 days of discharge have also been a primary quality indicator. As a result of the Hospital Readmission Reduction Program (HRRP) by CMS, the readmission rates have declined in general, especially for conditions like AMI, HF, and pneumonia (Wasfy et al., 2017)2
 
-3. Patient Experience
+**3. Patient Experience**
 
 Hospitals are increasingly emphasizing patient experience as a measure of care quality. Hospitals with better patient-reported experience scores generally demonstrate better safety and clinical outcomes (Anhang Price et al., 2014) 3. The focus on this metric is expected to grow.
 
-4. Care Process Measures
+**4. Care Process Measures**
 
 Care process measures like timeliness and effectiveness of care have been another crucial part of hospital quality metrics. According to CMS reports, hospitals have been making steady progress in these areas, but there's room for improvement (CMS, 2020) 4.
 
-5. Safety of Care
+**5. Safety of Care**
 
 Despite various patient safety initiatives, hospital adverse events remain a serious concern. Still, hospitals have improved, particularly in reducing healthcare-associated infections (HAI). The overall trend indicates gradual improvement but significant variation among hospitals (CMS, 2020) 4.
 
-6. Efficiency and Cost of Care
+**6. Efficiency and Cost of Care**
 
 While traditionally not a part of quality metrics, the efficiency and cost of care are increasingly recognized as essential quality elements. It's observed that higher-cost hospitals sometimes provide better quality care (Romley et al., 2015) 5.
 
