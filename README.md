@@ -32,7 +32,7 @@ While traditionally not a part of quality metrics, the efficiency and cost of ca
 
 ```{bash}
 # Download this repo 
-git clone 
+git clone https://github.com/LNshuti/healthcare-quality.git
 
 # Move into directory
 cd healthcare-quality
