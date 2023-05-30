@@ -28,6 +28,24 @@ Despite various patient safety initiatives, hospital adverse events remain a ser
 
 While traditionally not a part of quality metrics, the efficiency and cost of care are increasingly recognized as essential quality elements. It's observed that higher-cost hospitals sometimes provide better quality care (Romley et al., 2015).
 
+## Run the Streamlit Application
+
+```{bash}
+# Download this repo 
+git clone 
+
+# Move into directory
+cd healthcare-quality
+
+# Activate environment
+conda activate environment.yaml 
+
+# Install Requirements 
+pip install -r requirements.txt 
+
+# Run application 
+streamlit run app.py
+````
 
 #### References
 ---------------
