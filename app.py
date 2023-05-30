@@ -1,4 +1,5 @@
 import streamlit as st 
+import pandas as pd
 
 def main():
     st.set_page_config(layout="wide")
@@ -16,6 +17,29 @@ def main():
         6. Timeliness of Care - Timeliness of care for heart attack patients
         '''
     )
+
+    # Read data
+    data = pd.read_csv('data/Hospital_Service_Area_2021.csv')
+
+    # Display data
+    st.dataframe(data)
+
+    # Add selectbox for the measures
+    # measures = [
+    #     'Mortality', 
+    #     'Safety of Care', 
+    #     'Readmission', 
+    #     'Patient Experience', 
+    #     'Effectiveness of Care',
+    #     'Timeliness of Care'
+    # ]
+    # measure = st.selectbox("Select a measure to view:", measures)
+
+    # # Filter data based on selected measure
+    # filtered_data = data[data['Measure'] == measure]
+
+    # # Display filtered data
+    # st.dataframe(filtered_data)
 
 if __name__ == "__main__":
     main()
